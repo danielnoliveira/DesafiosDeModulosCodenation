@@ -10,3 +10,5 @@
 
 
 ## Sites hospedados usando o serviço [Netflify](https://app.netlify.com/)
+- pasta [React-11](https://stoic-edison-0bf928.netlify.app) 
+- pasta [React-12](https://vigilant-ride-66f539.netlify.app)
