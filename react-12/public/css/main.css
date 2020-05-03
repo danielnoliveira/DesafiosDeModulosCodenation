@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+body {
+	background: #fafafa;
+}
+.topbar {
+	width: 100%;
+	background: white;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.topbar__box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 12px;
+	margin: 0 auto;
+	width: 100%;
+}
+@media screen and (min-width: 728px) {
+	.topbar__box {
+		width: 728px;
+	}
+}
+
+.topbar__logo {
+	height: 40px;
+}
+
+.topbar__logo img {
+	height: 100%;
+}
+.topbar__box i {
+	color: black;
+}
+
+.content {
+	width: 760px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px 30px;
+}
+@media(max-width:720px) {
+	.content {
+		width: 100%;
+	}
+}
+.content__storys {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	list-style: none;
+	padding: 20px;
+	padding-left: 0;
+
+}
+.storys__user {
+	height: 78px;
+	width: 78px;
+	margin: 0 10px;
+	padding: 3px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.storys__user img {
+	border-radius: 50%;
+	padding: 1px;
+	background: white;
+	height: 100%;
+	width: 100%;
+}
+.storys__user--new {
+	background: linear-gradient(45deg, rgba(245,160,77,1) 0%, rgba(160,15,139,1) 100%);
+}
+
+.content__feeds {
+	width: 100%;
+}
+.feed {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	box-shadow: rgba(0, 0, 0, .1);
+	margin-bottom: 30px;
+}
+.feed__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.user__photo{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.user__photo img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.header__user {
+	display: flex;
+	align-items: center;
+}
+.user__name {
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+.header__button,.status__heart,.status__comment,.status__mark{
+	border: none;
+	background: none;
+}
+.feed__image {
+	width: 100%;
+}
+.feed__image img {
+	width: 100%;
+}
+.feed__status {
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+}
+.status__heart,.status__comment,.status__mark{
+	font-size: 24px;
+}
+.feed__info {
+	padding: 10px;
+	background: rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+}
+.info__firstUser {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.info__firstUser img {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+.info__usersLiked {
+	font-size: 12px;
+	margin-left: 8px;
+}
+.info__usersLiked a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
